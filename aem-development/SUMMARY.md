@@ -14,5 +14,4 @@ This is the summary of my book.
 * [Javascript Templates](jstemplates/README.md)
     * [Handlebars](jstemplates/handlebars.md)
 * [Roadmap](roadmap/README.md)
-    * [CSS Preprocessors](roadmap/css-preprocessors.md)
-    * [Task Managers](roadmap/task-mangers.md)
+
