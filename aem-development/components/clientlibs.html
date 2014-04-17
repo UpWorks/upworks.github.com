@@ -40,7 +40,7 @@
     </head>
     <body>
         
-<div class="book" data-github="UpWorks/aem-front-end-development" data-level="2.4" data-basepath=".." data-revision="1397708071555">
+<div class="book" data-github="UpWorks/aem-front-end-development" data-level="2.4" data-basepath=".." data-revision="1397739149847">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="https://github.com/UpWorks/aem-front-end-development" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
@@ -235,7 +235,7 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_3">
+                    <section class="normal" id="section-gitbook_2">
                     
                         <h1 id="clientlibs">ClientLibs</h1>
 <p>The client libs are a power feature of the AEM platform. </p>
@@ -246,9 +246,9 @@
 <p>Lets take a quick look at the the two txt files. If we open the js text file.</p>
 <pre><code><span class="hljs-preprocessor">#base=js</span>
 <span class="hljs-keyword">event</span>-listing.js
-</code></pre><p>The <code>#base=js</code> instructs the compiler that the base folder is js followed by the name or names of the JavaScript files that are to be included within the ClientLib.  During the build process AEM will create a one js file and one css file respectively.  If there were more than 1 file all the files would be concatenated into one file and minified.</p>
+</code></pre><p>The <code>#base=js</code> instructs the compiler that the base folder is js followed by the name or names of the JavaScript files that are to be included within the ClientLib.  During the build process AEM will create one js file and one css file respectively.  If there were more than 1 file all the files would be concatenated into one file and minified.</p>
 <p>**Minified in AEM = White Space remove, line breaks still exist :(</p>
-<p>Now in either my component JSP I can include the client lib with one line:
+<p>Now in my component JSP I can include the client lib with one line:
 <code>&lt;cq:includeClientLibcategories=&quot;nextgen.event-listing&quot; /&gt;</code>
 Or
 <code>&lt;cq:includeClientLibcss=&quot;nextgen.event-listing&quot; /&gt;</code>
